@@ -1,0 +1,105 @@
+.cards {
+    margin: 10px 0;
+    height: 25px
+}
+
+.cards li {
+    display: block;
+    float: left;
+   
+}
+
+.card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.card.cdisabled {
+    border: none;
+    opacity: .3
+}
+
+.card.mir {
+    background-image: url(140ac5d7d461a01c3f13.png)
+}
+.card.visa {
+    background-image: url(0ff6a4c86d89c405224f.png)
+}
+
+.card.amex {
+    background-image: url(2dead0f06f942ef426e7.png)
+}
+
+.card.jcb {
+    background-image: url(b1d2d4cfbb030d51c022.png)
+}
+
+.card.master {
+    background-image: url(4572ae97257082edb666.png)
+}
+
+.card.discover {
+    background-image: url(72d96ab7eb9d98a9f741.png)
+}
+
+.card.diners_club {
+    background-image: url(328020553dc3291c2005.png)
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+.form-control {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    margin: 0;
+    font: inherit;
+}
+
+.submit {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+/*# sourceMappingURL=main.css.map*/
