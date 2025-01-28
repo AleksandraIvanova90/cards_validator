@@ -1,5 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/10kmv5s1du4ep1uy?svg=true)](https://ci.appveyor.com/project/AleksandraIvanova90/cards-validator)
-
 ### Credit Card Validator
 
 #### Легенда
